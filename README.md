@@ -1,25 +1,43 @@
 # 🌤️ Weather Dashboard
 
-Dashboard de previsão do tempo desenvolvido com React e Tailwind CSS.
+Dashboard simples para consultar a previsão do tempo, feito com React.
 
 ## 🚀 Funcionalidades
 
-- ✅ Previsão atual do tempo
-- ✅ Previsão para os próximos 3 dias
-- ✅ Informações detalhadas (umidade, vento, visibilidade)
-- ✅ Interface responsiva e moderna
-- ✅ Animações e efeitos visuais
+- Mostra o clima atual de Florianópolis
+- Previsão para o dia anterior, próximo e atual
+- Informações como temperatura, umidade e vento
+- Design responsivo
 
 ## 🛠️ Tecnologias
 
-- **React** - Biblioteca JavaScript para interfaces
-- **Tailwind CSS** - Framework CSS utilitário
-- **WeatherAPI** - API de dados meteorológicos
-- **Vite** - Build tool moderna
+- React
+- Tailwind CSS
+- WeatherAPI
 
-## 🔧 Como Rodar Localmente
+## ⚙️ Como rodar
 
-1. Clone o repositório:
+1. Clone o projeto:
 ```bash
-git clone https://github.com/SEU_USUARIO/weather-dashboard-react.git
-cd weather-dashboard-react
+git clone https://github.com/InuKazuki/weather-dashboard.git
+cd weather-dashboard
+```
+
+2. Instale as dependências:
+```bash
+npm install
+```
+
+3. Crie um arquivo `.env` com sua chave da API:
+```
+VITE_WEATHER_API_KEY=sua_chave_aqui
+```
+
+4. Execute o projeto:
+```bash
+npm run dev
+```
+
+---
+
+Meu primeiro projeto com React! 🎉
