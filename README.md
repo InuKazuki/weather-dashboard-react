@@ -1,12 +1,25 @@
-# React + Vite
+# 🌤️ Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dashboard de previsão do tempo desenvolvido com React e Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Previsão atual do tempo
+- ✅ Previsão para os próximos 3 dias
+- ✅ Informações detalhadas (umidade, vento, visibilidade)
+- ✅ Interface responsiva e moderna
+- ✅ Animações e efeitos visuais
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** - Biblioteca JavaScript para interfaces
+- **Tailwind CSS** - Framework CSS utilitário
+- **WeatherAPI** - API de dados meteorológicos
+- **Vite** - Build tool moderna
+
+## 🔧 Como Rodar Localmente
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/SEU_USUARIO/weather-dashboard-react.git
+cd weather-dashboard-react
